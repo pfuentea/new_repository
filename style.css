@@ -1,0 +1,104 @@
+.contenedor{
+    max-width: 98%;
+}
+.verde{
+    background-color: green;
+    height: 100px;
+    margin: 5px;
+    width: 100%;
+}
+.azul{
+    background-color: blue;
+    height: 250px;
+    width: 20%;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.rojo{
+    background-color: red;
+    height: 400px;
+    width: 75%;    
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+}
+
+.amarillo{
+    background-color: yellow;
+    width:30%;
+    height: 190px;
+    display: inline-block;
+    margin: 5px;
+    /*sin padding*/
+}
+
+.violeta{
+    background-color: violet;
+    height: 190px;
+    width: 94%;
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 1024px){
+    .azul{
+        display: none;
+    }
+
+    .rojo{
+        width: 97%;
+        margin: 5px;
+    }
+    .amarillo{
+        display: inline-block;
+        width: 46%;
+        height: 120px;
+        margin : 5px;
+        
+    }
+    #tercero{
+        display: block;
+        margin: 5px 0 10px 3%;
+    }
+    .violeta{
+        width: 94%;
+        display: block;
+        height: 120px;
+        margin : 5px 3%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .verde{
+        background-color: green;
+        height: 100px;
+        margin: 5px;
+        width: 100%;
+    }
+    .rojo{
+        height: 500px;
+        display: block;
+        text-align: left;    
+    }
+    .amarillo{
+        display: block;
+        width: 98%;
+        height: 120px;
+        margin :5px;
+        
+    }
+    #tercero{
+        display: block;
+        width: 98%;
+        height: 120px;
+        margin :5px;
+    }
+    .violeta{
+        width: 98%;
+        display: block;
+        height: 120px;
+        margin : 5px;
+    }
+}
